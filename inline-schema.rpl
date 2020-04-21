@@ -1,0 +1,14 @@
+{
+  "here": {
+    "everything": true,
+    "goes": "Here goes"
+  }
+}
+
+[-- [brand name] --]
+
+[if here is everything]
+  [here goes] everything
+[else]
+  Nothing goes here    
+[end if]

@@ -1,0 +1,24 @@
+{
+  "brand": {
+    "name": "My Brand"
+  },
+  "customer": {
+    "name": "Customer Name"
+  },
+  "items": [
+    {
+      "item": {
+        "name": "Item 1",
+        "price": "$100"
+      },
+      "discount": {
+        "available": true,
+        "value": "5%"
+      }
+    }
+  ],
+  "order": {
+    "paid": true,
+    "total": "$185"
+  }
+}

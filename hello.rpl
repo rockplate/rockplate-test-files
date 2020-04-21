@@ -1,0 +1,30 @@
+{
+  "schema": "./hello.json"
+}
+
+Dear [customer name],
+
+Thank you for your order. Your items will be shipped soon
+
+[--
+this is a comment that should be removed
+--]
+
+[something wrong]
+
+[repeat items]
+
+  [item name]: [item price]
+
+  [if discount is available] [-- this is a comment too --]
+      (Discount: [discount value])
+  [else]
+      (No Discount)
+  [end if]
+
+[end repeat]
+
+Total: [order total]
+
+Thanks
+[brand name]
